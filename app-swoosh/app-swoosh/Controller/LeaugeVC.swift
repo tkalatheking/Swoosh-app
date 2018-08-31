@@ -9,10 +9,16 @@
 import UIKit
 
 class LeaugeVC: UIViewController {
+   
+    var player: Player!
+    
+    @IBOutlet weak var NextBtn: BorderButton!
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        player = Player()
     }
     
     
@@ -20,6 +26,22 @@ class LeaugeVC: UIViewController {
         performSegue(withIdentifier: "skillVCSeque", sender: self)
     }
     
+    @IBAction func onMensPress(_ sender: Any) {
+        selectLeague(leagueType: "men")
+    }
+    
+    @IBAction func onWomensPress(_ sender: Any) {
+        selectLeague(leagueType: "women")
+    }
+  
+    @IBAction func onCoedPress(_ sender: Any) {
+        selectLeague(leagueType: "coed")
+    }
+   
+    func selectLeague(leagueType: String) {
+        player.desiredLeague = leagueType
+        NextBtn.isEnabled = true
+    }
     
     /*
     // MARK: - Navigation
