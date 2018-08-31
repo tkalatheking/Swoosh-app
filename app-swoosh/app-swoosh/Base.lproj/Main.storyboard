@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="-290" y="18"/>
         </scene>
-        <!--View Controller-->
+        <!--LeaugeVC-->
         <scene sceneID="6WS-Jk-miM">
             <objects>
-                <viewController id="fda-lA-7gX" sceneMemberID="viewController">
+                <viewController id="fda-lA-7gX" customClass="LeaugeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a92-IU-Ggt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,12 +203,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjR-OX-agv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Km0-LU-Ot7" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="454" y="19"/>
+            <point key="canvasLocation" x="450" y="18"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="dh4-Ip-iPz">
             <objects>
-                <viewController id="Glx-1G-1P1" sceneMemberID="viewController">
+                <viewController id="Glx-1G-1P1" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wGU-3R-Th7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
